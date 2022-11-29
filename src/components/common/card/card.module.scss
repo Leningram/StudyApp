@@ -1,0 +1,14 @@
+@import '/src/assets/styles/variables.scss';
+
+.card {
+  &_wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: $white;
+    border-radius: 7px;
+    width: fit-content;
+    height: fit-content;
+    box-shadow: $card-shadow;
+    padding: 30px 40px;
+  }
+}

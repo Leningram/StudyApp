@@ -1,0 +1,23 @@
+@import '/src/assets/styles/variables.scss';
+
+.student {
+  &_container {
+    display: flex;
+    flex-direction: column;
+    width: 440px;
+  }
+  &_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 24px;
+  }
+  &_name {
+    font-weight: $bold;
+    font-size: $fs-middle;
+    max-width: 300px;
+    overflow: hidden;
+    text-align: start;
+    text-overflow: ellipsis;
+  }
+}
