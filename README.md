@@ -2,11 +2,13 @@
 
 An app for students and teachers to control the study process
 
-## Used stack of technologies
+## Stack of technologies
 
 Javascript;
 Typescript;
 React;
+
+SASS/SCSS;
 
 ESLint;
 Prettier;

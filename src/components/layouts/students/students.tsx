@@ -5,6 +5,10 @@ const Students = () => {
 	return (
 		<div className={styles.students_container}>
 			<StudentCard />
+			<StudentCard />
+			<StudentCard />
+			<StudentCard />
+			<StudentCard />
 		</div>
 	);
 };
