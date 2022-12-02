@@ -1,14 +1,23 @@
 @import '/src/assets/styles/variables.scss';
 
+.layout_wrapper {
+  display: flex;
+  flex-direction: row;
+}
+.sidemenu {
+  min-width: 28rem;
+  background-color: $blue;
+  color: $white;
+}
 .students {
   &_container {
     display: flex;
     width: 100%;
     height: 100%;
-    gap: 24px;
+    gap: 4.4rem;
     flex-direction: row;
     flex-wrap: wrap;
     background-color: $background-light;
-    padding: 100px;
+    padding: 10rem;
   }
 }

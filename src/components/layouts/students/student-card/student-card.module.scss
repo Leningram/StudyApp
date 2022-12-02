@@ -4,7 +4,7 @@
   &_container {
     display: flex;
     flex-direction: column;
-    width: 440px;
+    width: 44rem;
   }
   &_header {
     display: flex;
@@ -15,7 +15,7 @@
   &_name {
     font-weight: $bold;
     font-size: $fs-middle;
-    max-width: 300px;
+    max-width: 30rem;
     overflow: hidden;
     text-align: start;
     text-overflow: ellipsis;
@@ -23,10 +23,10 @@
 
   &_info {
     &_container {
-      margin-top: 36px;
+      margin-top: 3.6rem;
       display: flex;
       flex-direction: column;
-      gap: 12px;
+      gap: 1.2rem;
       align-items: start;
     }
   }
