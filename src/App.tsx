@@ -1,5 +1,5 @@
 import './App.scss';
-import Students from './components/layouts/students/students';
+import Students from '@/components/layouts/students';
 
 function App() {
 	return (
