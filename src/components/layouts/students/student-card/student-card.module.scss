@@ -4,7 +4,7 @@
   &_container {
     display: flex;
     flex-direction: column;
-    width: 44rem;
+    width: 54rem;
   }
   &_header {
     display: flex;
@@ -20,7 +20,6 @@
     text-align: start;
     text-overflow: ellipsis;
   }
-
   &_info {
     &_container {
       margin-top: 3.6rem;
@@ -29,6 +28,9 @@
       gap: 1.2rem;
       align-items: start;
     }
+  }
+  &_status {
+    font-size: 1.6rem;
   }
   &_buttons {
     margin-top: 24px;

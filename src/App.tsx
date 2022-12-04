@@ -1,10 +1,10 @@
 import './App.scss';
-import Students from '@/components/layouts/students';
+import MainLayout from '@/components/layouts/main-layout/main-layout';
 
 function App() {
 	return (
 		<div className="App">
-			<Students />
+			<MainLayout />
 		</div>
 	);
 }

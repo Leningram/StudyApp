@@ -1,0 +1,21 @@
+@import '/src/assets/styles/variables.scss';
+
+.button {
+  display: flex;
+  flex-direction: row;
+  padding: 2rem 4rem;
+  background-color: $blue;
+  border: none;
+  color: $white;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: .4rem;
+  transition: all ease-in .04s;
+  &:hover {
+    background-color: $blue-hover;
+  }
+  &:disabled {
+    background-color: $gray;
+    cursor: default;
+  }
+}

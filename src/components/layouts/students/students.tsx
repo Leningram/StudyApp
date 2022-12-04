@@ -4,7 +4,6 @@ import styles from './students.module.scss';
 const Students = () => {
 	return (
 		<div className={styles.layout_wrapper}>
-			<div className={styles.sidemenu}>Sidemenu</div>
 			<div className={styles.students_container}>
 				<StudentCard />
 				<StudentCard />
